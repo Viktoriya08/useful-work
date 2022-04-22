@@ -1,9 +1,9 @@
 # useful-work
-1.Показать/скрыть хедер при прокрутке страницы
+№ Показать/скрыть хедер при прокрутке страницы
  - https://github.com/vimp-dev/show-hide-header-by-scroll
  - https://www.youtube.com/watch?v=VayfnVMHknY&t=0s
 
-2. Покрасить карту Яндекс в темную тему
+# Покрасить карту Яндекс в темную тему
 - https://www.youtube.com/watch?v=uOEakVEQlN4
 - .ymaps-2-1-79-ground-pane {
         -ms-filter: grayscale(1);
