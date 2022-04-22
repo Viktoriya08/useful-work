@@ -5,7 +5,7 @@
 
 # Покрасить карту Яндекс в темную тему
 - https://www.youtube.com/watch?v=uOEakVEQlN4
-- .ymaps-2-1-79-ground-pane {
+- ```.ymaps-2-1-79-ground-pane {
         -ms-filter: grayscale(1);
        -webkit-filter: grayscale(1);
        -moz-filter: grayscale(1);
@@ -33,7 +33,7 @@
  <div class="b-net__col b-net__col-2 b-net__col-4"><div class="b"></div></div>
  <div class="b-net__col b-net__col-2 b-net__col-4"><div class="b"></div></div>
  <div class="b-net__col b-net__col-2 b-net__col-4"><div class="b"></div></div>
- </div>```
+ </div>
  
  - CSS
  .b-net{
