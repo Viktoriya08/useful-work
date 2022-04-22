@@ -28,12 +28,12 @@
    }
 # Сетка
  - HTML
- <div class="b-net">
+ ```<div class="b-net">
  <div class="b-net__col b-net__col-2 b-net__col-4"><div class="b"></div></div>
  <div class="b-net__col b-net__col-2 b-net__col-4"><div class="b"></div></div>
  <div class="b-net__col b-net__col-2 b-net__col-4"><div class="b"></div></div>
  <div class="b-net__col b-net__col-2 b-net__col-4"><div class="b"></div></div>
- </div>
+ </div>```
  
  - CSS
  .b-net{
