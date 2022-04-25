@@ -84,3 +84,5 @@
 ```
  # 4 Акордеон на CSS (details, summary)  
  https://xhtml.ru/2020/html/details-summary-accordion/
+ # 5 Аккордеон на JS
+ https://myrusakov.ru/js-accordion.html
