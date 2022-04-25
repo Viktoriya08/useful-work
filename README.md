@@ -1,9 +1,9 @@
 # useful-work
-# Показать/скрыть хедер при прокрутке страницы
+# 1 Показать/скрыть хедер при прокрутке страницы
  - https://github.com/vimp-dev/show-hide-header-by-scroll
  - https://www.youtube.com/watch?v=VayfnVMHknY&t=0s
 
-# Покрасить карту Яндекс в темную тему
+# 2 Покрасить карту Яндекс в темную тему
 - https://www.youtube.com/watch?v=uOEakVEQlN4
 - ```.ymaps-2-1-79-ground-pane {
         -ms-filter: grayscale(1);
@@ -26,7 +26,7 @@
        mix-blend-mode: difference;
        pointer-events: none;
    }
-# Сетка
+# 3 Сетка
  - HTML
  ```
  <div class="b-net">
@@ -82,4 +82,5 @@
     }
 }
 ```
-   
+ # 4 Акордеон на CSS (details, summary)  
+ https://xhtml.ru/2020/html/details-summary-accordion/
