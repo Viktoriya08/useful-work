@@ -104,3 +104,15 @@ $('#input0').click(function() {
 });
 </script>
 ```
+# 7 Функция на addEventListener
+```
+const searchCategoryBtn = document.querySelector('.search-catalog__btn');
+
+searchCategoryBtn.addEventListener('click', function(){
+    this.classList.toggle('open');
+    this.nextElementSibling.classList.toggle('open');
+
+});
+```
+# 8 Библиотека для картинок галерея, аля fancybox на чистом js
+https://biati-digital.github.io/glightbox/#specifications
