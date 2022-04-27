@@ -116,3 +116,5 @@ searchCategoryBtn.addEventListener('click', function(){
 ```
 # 8 Библиотека для картинок галерея, аля fancybox на чистом js
 https://biati-digital.github.io/glightbox/#specifications
+# 9 Плагин - кастомный скролл-бар
+https://www.npmjs.com/package/simplebar
