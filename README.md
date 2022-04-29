@@ -118,3 +118,58 @@ searchCategoryBtn.addEventListener('click', function(){
 https://biati-digital.github.io/glightbox/#specifications
 # 9 Плагин - кастомный скролл-бар
 https://www.npmjs.com/package/simplebar
+# 10 Кнопка прокрутки вверх
+```
+<button class="b-btn-up"></button>
+.b-btn-up{
+    position: fixed;
+    bottom: 20px;
+    right: 15%;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-image: url(../images/arrow-white.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #7ac751;
+    transform: rotate(-90deg);
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity;
+    transition-duration: 1s;
+    &.js-visible{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+const goTopBtn = document.querySelector('.b-btn-up');
+
+(function() {
+    'use strict';
+  
+    function trackScroll() {
+      const scrolled = window.pageYOffset;
+      const coords = document.documentElement.clientHeight;
+  
+      if (scrolled > coords) {
+        goTopBtn.classList.add('js-visible');
+      }
+      if (scrolled < coords) {
+        goTopBtn.classList.remove('js-visible');
+      }
+    }
+  
+    function backToTop() {
+      if (window.pageYOffset > 0) {
+        window.scrollTo(0,0);
+      }
+    }
+  
+    window.addEventListener('scroll', trackScroll);
+    goTopBtn.addEventListener('click', backToTop);
+  })();
+  ```
