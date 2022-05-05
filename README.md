@@ -178,3 +178,5 @@ const goTopBtn = document.querySelector('.b-btn-up');
   # 12 Кастомизация select
   https://github.com/jshjohnson/Choices - библиотека choices.js
   https://www.youtube.com/watch?v=dnC7XCYb9Qg - видео описание
+  # 13 Кастомный ползунок для фильтра цен
+  https://refreshless.com/nouislider/ - noUiSlider
