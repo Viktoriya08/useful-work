@@ -180,3 +180,13 @@ const goTopBtn = document.querySelector('.b-btn-up');
   https://www.youtube.com/watch?v=dnC7XCYb9Qg - видео описание
   # 13 Кастомный ползунок для фильтра цен
   https://refreshless.com/nouislider/ - noUiSlider
+  # 14 Плавное появление элемента
+  ```
+  .element{
+    transform: scale(0);
+    trensition: transform 0.5s ease 0.0s;
+   }
+   .element:hover{
+   transform: scale(1)
+   }
+   ```
