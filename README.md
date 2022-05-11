@@ -190,3 +190,32 @@ const goTopBtn = document.querySelector('.b-btn-up');
    transform: scale(1)
    }
    ```
+   # 15 Отключить на Slick JQ десктопе
+   mobileFirst: true,
+   settings: 'unslick',
+   ```
+   $(".header__cats-slider").slick({
+        slidesToShow: 5,
+        arrows: true,
+        infinite: false,
+        mobileFirst: true,
+        responsive: [
+          {
+            breakpoint: 1300,
+            settings: 'unslick',
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 4,
+            },
+          },
+          {
+            breakpoint: 670,
+            settings: {
+              slidesToShow: 2,
+            },
+          }
+        ]
+    });
+    ```
