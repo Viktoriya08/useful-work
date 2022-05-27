@@ -219,5 +219,5 @@ const goTopBtn = document.querySelector('.b-btn-up');
         ]
     });
     ```
-    # 16 экранная типографика - убрать висячие предлоги
+       # 16 экранная типографика - убрать висячие предлоги
     https://www.artlebedev.ru/typograf/about/
