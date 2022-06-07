@@ -219,8 +219,12 @@ const goTopBtn = document.querySelector('.b-btn-up');
         ]
     });
     ```
-       # 16 экранная типографика - убрать висячие предлоги 
+    # 16 экранная типографика - убрать висячие предлоги 
          https://www.artlebedev.ru/typograf/about/
     
     # 17 Предотвратите скрытие содержимого под фиксированным заголовком с помощьюscroll-margin-top
     https://www.bram.us/2020/03/01/prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top/
+    
+    # 18 Ползунки для фильтра - плагин js
+    https://www.youtube.com/watch?v=kWoAKq7N2Ew
+    https://refreshless.com/nouislider/slider-options/
