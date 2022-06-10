@@ -228,3 +228,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
     # 18 Ползунки для фильтра - плагин js
     https://www.youtube.com/watch?v=kWoAKq7N2Ew
     https://refreshless.com/nouislider/slider-options/
+    
+    # 19 Для пейджспида - разгон сайта
+    https://thanosjs.org/
