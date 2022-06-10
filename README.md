@@ -231,3 +231,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
     
     # 19 Для пейджспида - разгон сайта
     https://thanosjs.org/
+    
+    # 20 Кастомизация input checkbox
+    https://itchief.ru/html-and-css/styling-checkbox-and-radio
