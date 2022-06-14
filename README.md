@@ -234,3 +234,5 @@ const goTopBtn = document.querySelector('.b-btn-up');
     
     # 20 Кастомизация input checkbox
     https://itchief.ru/html-and-css/styling-checkbox-and-radio
+    # 21 Счетчик списка на CSS 
+    https://russianblogs.com/article/8486683955/
