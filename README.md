@@ -236,3 +236,24 @@ const goTopBtn = document.querySelector('.b-btn-up');
     https://itchief.ru/html-and-css/styling-checkbox-and-radio
     # 21 Счетчик списка на CSS 
     https://russianblogs.com/article/8486683955/
+    # 22 Повесить обработчик клик на родительский блок и внем потом искать кнопку (если кнопок много, то это сократит обработчик до одного, всето того, чтобы вешать обработчик на каждую кнопку)
+    ```
+    <div class="parent">
+    <button class="button">Кнопка</button>
+    <button class="button">Кнопка</button>
+    <button class="button">Кнопка</button>
+    <button class="button">Кнопка</button>
+    </div>
+    
+    const parent = document.querySelector(".parent");
+    
+    function showConsole(){
+      console.log("Ура");
+    }
+    
+    parent.addEventListener("click", function (event){
+     if(event.target.closest('.button')){   // event.target.closest - проверяет наличие класса button
+      showConsole();
+     }
+     });
+     ```
