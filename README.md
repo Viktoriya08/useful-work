@@ -257,3 +257,19 @@ const goTopBtn = document.querySelector('.b-btn-up');
      }
      });
      ```
+     # 23 посмотреть все аргументы, которые передаются в функцию
+     ```
+     function showSumAll(){
+       console.log(arguments);
+     }
+     showSumAll(2, 3, 5);
+     ```
+     Превратить аргументы в массив и работать уже с массивом в функции
+     ```
+     function showSumAll(...arg){
+       console.log(arg);
+       let sum = arg.reduce((accum, item) => accum += item);
+       console.log(sum);
+     }
+     showSumAll(2, 3, 5);
+     ```
