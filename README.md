@@ -273,3 +273,14 @@ const goTopBtn = document.querySelector('.b-btn-up');
      }
      showSumAll(2, 3, 5);
      ```
+     # 24 Интерполяция строк `${randInt(0, 255)} `
+     ```
+     function randInt(min, max){
+      let rand = min + Math.random() * (max + 1 - min);
+      return Math.floor(rand);
+     }
+
+     block2.addEventListener('click', ()=>{
+         block2.style.background = `rgb(${randInt(0, 255)},${randInt(0, 255)},${randInt(0, 255)})`;
+     })
+     ```
