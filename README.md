@@ -284,3 +284,7 @@ const goTopBtn = document.querySelector('.b-btn-up');
          block2.style.background = `rgb(${randInt(0, 255)},${randInt(0, 255)},${randInt(0, 255)})`;
      })
      ```
+     # 25 форматирование цифровых значений new Intl.NumberFormat("ru");
+     
+     const formatter = new Intl.NumberFormat("ru");
+     переменная.innerText = formatter.format(значение-цифра);
