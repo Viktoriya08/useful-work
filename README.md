@@ -288,3 +288,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
      
      const formatter = new Intl.NumberFormat("ru");
      переменная.innerText = formatter.format(значение-цифра);
+     
+     # 26 Отмена всплытия события - event.stopPropagation
+     https://www.youtube.com/watch?v=GsYiq4Ic384&t=9s
