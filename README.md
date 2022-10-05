@@ -291,3 +291,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
      
      # 26 Отмена всплытия события - event.stopPropagation
      https://www.youtube.com/watch?v=GsYiq4Ic384&t=9s
+     
+     # 27 Анимация
+     https://projects.verou.me/animatable/
