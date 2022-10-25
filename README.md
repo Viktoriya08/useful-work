@@ -294,3 +294,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
      
      # 27 Анимация
      https://projects.verou.me/animatable/
+     
+     # 28 Палигон
+     https://bennettfeely.com/clippy/
