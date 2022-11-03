@@ -297,3 +297,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
      
      # 28 Палигон
      https://bennettfeely.com/clippy/
+     
+     # 29 Бэкграунд цветом и градиентом
+     background: radial-gradient(40.63% 46.8% at 68.26% 65.2%, rgba(195, 147, 103, 0.7) 0%, rgba(195, 147, 103, 0) 100%), #E04E39;
