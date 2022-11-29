@@ -303,3 +303,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
      
      # 30 Переносы длинных слов HTML
      https://www.tune-it.ru/web/leksa/blog/-/blogs/ukrosaem-dlinnyj-tekst-sredstvami-html-i-css
+     
+     # 31 Кодировка SVG для CSS
+     https://yoksel.github.io/url-encoder/ru/
