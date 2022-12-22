@@ -306,3 +306,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
      
      # 31 Кодировка SVG для CSS
      https://yoksel.github.io/url-encoder/ru/
+     
+     #32 Перекрасить svg
+     filter: drop-shadow(0px 5px 24px rgba(226, 64, 55, 0.35))
