@@ -309,3 +309,7 @@ const goTopBtn = document.querySelector('.b-btn-up');
      
      #32 Перекрасить svg
      filter: drop-shadow(0px 5px 24px rgba(226, 64, 55, 0.35))
+     
+     # 33 Удалить ветку в гите (если ее нет локально, а только на гите)
+     git push -d origin new_templates
+     https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
