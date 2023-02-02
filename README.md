@@ -321,3 +321,52 @@ const goTopBtn = document.querySelector('.b-btn-up');
      # 33 Удалить ветку в гите (если ее нет локально, а только на гите)
      git push -d origin new_templates
      https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
+     
+     #33 Плавное раскрытие текстового блока
+     На текстовый блок вешаем data-cut-text со значением, которое будет соответсвовать значению кнопки data-cut
+     
+     .block-text
+      Много текста одним параграфом
+      
+      
+     .block-text
+            overflow: hidden
+            display: -webkit-box
+            -webkit-line-clamp: 6
+            -webkit-box-orient: vertical
+            max-height: 135px
+            height: auto
+            transition: all 0.5s ease-out
+            &.open
+                -webkit-line-clamp: 50
+                max-height: 600px
+                transition: all 0.5s ease-in
+                
+     JS
+    function cutText(textBlock) {
+    const textBlocks = document.querySelectorAll("[data-cut-text]")
+    const btns = document.querySelectorAll("[data-cut]")
+
+    if (textBlocks || btns) {
+        btns.forEach(btn =>{
+            btn.addEventListener('click', ()=>{
+
+                textBlocks.forEach(block =>{
+
+                    if(block.dataset.cutText == btn.dataset.cut){
+                        block.classList.toggle('open')
+                        //block.style.height = `${block.scrollHeight}px`
+                        btn.classList.toggle('open')
+                    }
+                })
+
+                 if(btn.classList.contains('open')){
+                     btn.innerHTML = 'Свернуть'
+                 } else{
+                     btn.innerHTML = 'Развернуть'
+                 }
+                  })
+              })
+          }
+
+      }
