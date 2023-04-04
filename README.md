@@ -370,3 +370,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
           }
 
       }
+      
+      #34 Бурген анимация на svg
+      https://codepen.io/kevinpowell/pen/gOKpOyy
