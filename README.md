@@ -373,3 +373,11 @@ const goTopBtn = document.querySelector('.b-btn-up');
       
       #34 Бурген анимация на svg
       https://codepen.io/kevinpowell/pen/gOKpOyy
+      
+      #35 CSS свойство, которое сообщает браузеру какие элементы меняются, трасформируются на странице и им нажобольше аппаратных ресурсов. Чтобы анимация не тормозила, на элементы добавляем это свойство  -  will-change: transform;
+      
+     ``` 
+     .content, .hero, .main-header, .gallery > * {
+	will-change: transform;
+}
+```
