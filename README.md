@@ -383,3 +383,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
 	will-change: transform;
 }
 ```
+
+#36 Подбор фона под картинку
+https://github.com/fast-average-color/fast-average-color
