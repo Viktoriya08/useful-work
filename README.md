@@ -386,3 +386,6 @@ const goTopBtn = document.querySelector('.b-btn-up');
 
 #36 Подбор фона под картинку
 https://github.com/fast-average-color/fast-average-color
+
+# 37 Направление Transform CSS
+transform-origin: center left
