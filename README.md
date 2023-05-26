@@ -389,3 +389,8 @@ https://github.com/fast-average-color/fast-average-color
 
 # 37 Направление Transform CSS
 transform-origin: center left
+
+#38 Автоматический перенос грид-элементов
+
+Чтобы колонки переносились можно использовать auto-fit или auto-fill. grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); 
+Эти ключевые слова говорят браузеру перенести элемент на новую строку, если не хватает ширины, чтобы его вместить без перекрытия.
