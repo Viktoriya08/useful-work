@@ -289,25 +289,25 @@ const goTopBtn = document.querySelector('.b-btn-up');
      const formatter = new Intl.NumberFormat("ru");
      переменная.innerText = formatter.format(значение-цифра);
      
-     # 26 Отмена всплытия события - event.stopPropagation
+ # 26 Отмена всплытия события - event.stopPropagation
      https://www.youtube.com/watch?v=GsYiq4Ic384&t=9s
      
-     # 27 Анимация
+ # 27 Анимация
      https://projects.verou.me/animatable/
      
-     # 28 Палигон
+ # 28 Палигон
      https://bennettfeely.com/clippy/
      
-     # 29 Бэкграунд цветом и градиентом
+ # 29 Бэкграунд цветом и градиентом
      background: radial-gradient(40.63% 46.8% at 68.26% 65.2%, rgba(195, 147, 103, 0.7) 0%, rgba(195, 147, 103, 0) 100%), #E04E39;
      
-     # 30 Переносы длинных слов HTML
+  # 30 Переносы длинных слов HTML
      https://www.tune-it.ru/web/leksa/blog/-/blogs/ukrosaem-dlinnyj-tekst-sredstvami-html-i-css
      
-     # 31 Кодировка SVG для CSS
+  # 31 Кодировка SVG для CSS
      https://yoksel.github.io/url-encoder/ru/
      
-     #32 Перекрасить svg
+  # 32 Перекрасить svg
      filter: drop-shadow(0px 5px 24px rgba(226, 64, 55, 0.35))
      
      svg
@@ -318,11 +318,11 @@ const goTopBtn = document.querySelector('.b-btn-up');
          svg
              filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.3))
      
-     # 33 Удалить ветку в гите (если ее нет локально, а только на гите)
+ # 33 Удалить ветку в гите (если ее нет локально, а только на гите)
      git push -d origin new_templates
      https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
      
-     #33 Плавное раскрытие текстового блока
+ # 33 Плавное раскрытие текстового блока
      На текстовый блок вешаем data-cut-text со значением, которое будет соответсвовать значению кнопки data-cut
      
      .block-text
@@ -371,18 +371,18 @@ const goTopBtn = document.querySelector('.b-btn-up');
 
       }
       
-      #34 Бурген анимация на svg
+# 34 Бурген анимация на svg
       https://codepen.io/kevinpowell/pen/gOKpOyy
       
-      #35 CSS свойство, которое сообщает браузеру какие элементы меняются, трасформируются на странице и им надо больше аппаратных ресурсов. Чтобы анимация не тормозила, на элементы добавляем это свойство  -  will-change: transform;
+# 35 CSS свойство, которое сообщает браузеру какие элементы меняются, трасформируются на странице и им надо больше аппаратных ресурсов. Чтобы анимация не тормозила, на элементы добавляем это свойство  -  will-change: transform;
       
       transform - указываем то свойств, которое меняется при анимации
       
-     ``` 
-     .content, .hero, .main-header, .gallery > * {
-	will-change: transform;
-}
-```
+     	``` 
+     	.content, .hero, .main-header, .gallery > * {
+		will-change: transform;
+	}
+	```
 
 # 36 Подбор фона под картинку
 https://github.com/fast-average-color/fast-average-color
