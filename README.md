@@ -218,25 +218,25 @@ const goTopBtn = document.querySelector('.b-btn-up');
           }
         ]
     });
-    ```
-    # 16 экранная типографика - убрать висячие предлоги 
+   ```
+# 16 экранная типографика - убрать висячие предлоги 
          https://www.artlebedev.ru/typograf/about/
     
-    # 17 Предотвратите скрытие содержимого под фиксированным заголовком с помощьюscroll-margin-top
+# 17 Предотвратите скрытие содержимого под фиксированным заголовком с помощьюscroll-margin-top
     https://www.bram.us/2020/03/01/prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top/
     
-    # 18 Ползунки для фильтра - плагин js
+# 18 Ползунки для фильтра - плагин js
     https://www.youtube.com/watch?v=kWoAKq7N2Ew
     https://refreshless.com/nouislider/slider-options/
     
-    # 19 Для пейджспида - разгон сайта
+ # 19 Для пейджспида - разгон сайта
     https://thanosjs.org/
     
-    # 20 Кастомизация input checkbox
+ # 20 Кастомизация input checkbox
     https://itchief.ru/html-and-css/styling-checkbox-and-radio
-    # 21 Счетчик списка на CSS 
+ # 21 Счетчик списка на CSS 
     https://russianblogs.com/article/8486683955/
-    # 22 Повесить обработчик клик на родительский блок и внем потом искать кнопку (если кнопок много, то это сократит обработчик до одного, всето того, чтобы вешать обработчик на каждую кнопку)
+ # 22 Повесить обработчик клик на родительский блок и внем потом искать кнопку (если кнопок много, то это сократит обработчик до одного, всето того, чтобы вешать обработчик на каждую кнопку)
     ```
     <div class="parent">
     <button class="button">Кнопка</button>
@@ -257,7 +257,7 @@ const goTopBtn = document.querySelector('.b-btn-up');
      }
      });
      ```
-     # 23 посмотреть все аргументы, которые передаются в функцию
+ # 23 посмотреть все аргументы, которые передаются в функцию
      ```
      function showSumAll(){
        console.log(arguments);
@@ -273,7 +273,7 @@ const goTopBtn = document.querySelector('.b-btn-up');
      }
      showSumAll(2, 3, 5);
      ```
-     # 24 Интерполяция строк `${randInt(0, 255)} `
+ # 24 Интерполяция строк `${randInt(0, 255)} `
      ```
      function randInt(min, max){
       let rand = min + Math.random() * (max + 1 - min);
@@ -284,7 +284,7 @@ const goTopBtn = document.querySelector('.b-btn-up');
          block2.style.background = `rgb(${randInt(0, 255)},${randInt(0, 255)},${randInt(0, 255)})`;
      })
      ```
-     # 25 форматирование цифровых значений new Intl.NumberFormat("ru");
+ # 25 форматирование цифровых значений new Intl.NumberFormat("ru");
      
      const formatter = new Intl.NumberFormat("ru");
      переменная.innerText = formatter.format(значение-цифра);
@@ -384,13 +384,13 @@ const goTopBtn = document.querySelector('.b-btn-up');
 }
 ```
 
-#36 Подбор фона под картинку
+# 36 Подбор фона под картинку
 https://github.com/fast-average-color/fast-average-color
 
 # 37 Направление Transform CSS
 transform-origin: center left
 
-#38 Автоматический перенос грид-элементов
+# 38 Автоматический перенос грид-элементов
 
 Чтобы колонки переносились можно использовать auto-fit или auto-fill. grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); 
 Эти ключевые слова говорят браузеру перенести элемент на новую строку, если не хватает ширины, чтобы его вместить без перекрытия.
