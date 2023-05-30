@@ -394,3 +394,30 @@ transform-origin: center left
 
 Чтобы колонки переносились можно использовать auto-fit или auto-fill. grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); 
 Эти ключевые слова говорят браузеру перенести элемент на новую строку, если не хватает ширины, чтобы его вместить без перекрытия.
+
+# 39 Работа с SVG
+
+HTML
+svg(width="100px" height="100px" viewBox="0 0 100 100" data-max-value="100" data-current-value="27").circle
+  circle(cx="50" cy="50" fill="none" r="47" stroke-width="3" 	stroke-linecap='round' stroke="#c7c7c7")
+  circle(id="circle-progress" cx="50" cy="50" fill="none" r="47" stroke-width="3" 	stroke-linecap='round' stroke="#b5a053" stroke-dasharray="295 295" stroke-dashoffset="50")
+  
+ CSS
+ .circle {
+  width: 92px;
+  height: 92px;
+  margin: 33px;
+  transform: rotate(-90deg)
+}
+
+JS
+const circle = document.getElementById('circle-progress');
+const maxValue = parseInt(circle.parentElement.dataset.maxValue);
+const currentValue = parseInt(circle.parentElement.dataset.currentValue);
+
+const percentValue = (currentValue / maxValue) * 100;
+const circleLength = 2 * Math.PI * parseFloat(circle.getAttribute('r'));
+const dashOffset = circleLength - (percentValue / 100) * circleLength;
+
+circle.setAttribute('stroke-dasharray', circleLength);
+circle.setAttribute('stroke-dashoffset', dashOffset);
